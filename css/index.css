@@ -1,0 +1,103 @@
+body {
+    padding: 50px;
+    font-family: Roboto;    
+    padding-top: unset;
+    overflow: hidden;
+}
+.nav-items {
+    float: left;
+    margin-left: 272px;
+    z-index: 3;
+    position: relative;
+}
+h5.nav-item {
+    float: left;
+    margin-left: 58px;
+    font-size: small;
+    font-weight: 900;
+}
+body > div > nav > img {
+    float: left;
+}
+
+
+.imgs-div {
+    position: absolute;
+    top: 50px;
+    left: 530px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+body > div > div > div.imgs-div > img:nth-child(3) {
+    height: 621px;
+    left: 151px;
+    width: 600px;
+    position: relative;
+    z-index: 2;
+}
+img.vector-img {
+    position: relative;
+    left: 257px;
+    top: 165px;
+}
+img.vector-dot {
+    position: relative;
+    left: 257px;
+    top: 165px;
+}
+
+
+img.backcover {
+    z-index: 1;
+    position: relative;
+    left: -483px;
+    top: -50px;
+    width: 802px;
+    height: 700px;
+}
+.left-section {
+    float: left;
+    position: relative;
+    top: 58px;
+}
+h1 {
+    color: #3e4794;
+    font-size: 4.5em;
+}
+button.learn-more-btn {
+    background-image: linear-gradient(to right,#965cf2 0%, #ff8adc 60%);
+    border: none;
+    border-radius: 19px;
+    color: white;
+    position: relative;
+    padding: 10px;
+    top: 56px;
+    font-size: initial;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button.signin-btn {
+    background-image: linear-gradient(to right,#965cf2 0%, #ff8adc 60%);
+    padding: 5px;
+    font-size: inherit;
+    border-radius: 19px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border: none;
+    position: relative;
+    z-index: 2;
+    top: 18px;
+    left: 223px;
+}
+.intro-section {
+    width: 390px;
+}
+
+
+h4 {
+    color: gray;
+}
